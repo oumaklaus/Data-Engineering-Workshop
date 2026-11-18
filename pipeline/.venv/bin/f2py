@@ -1,4 +1,4 @@
-#!/workspaces/Docker-Workshop/pipeline/.venv/bin/python
+#!/home/lacoste/Documents/Docker-Workshop/pipeline/.venv/bin/python
 # -*- coding: utf-8 -*-
 import sys
 from numpy.f2py.f2py2e import main

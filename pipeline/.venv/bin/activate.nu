@@ -69,7 +69,7 @@ export-env {
         }
     }
 
-    const virtual_env = '/workspaces/Docker-Workshop/pipeline/.venv'
+    const virtual_env = '/home/lacoste/Documents/Docker-Workshop/pipeline/.venv'
     let bin = 'bin'
     let path_name = if (has-env 'Path') { 'Path' } else { 'PATH' }
     let venv_path = ([$virtual_env $bin] | path join)

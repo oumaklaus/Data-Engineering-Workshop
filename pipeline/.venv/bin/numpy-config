@@ -1,4 +1,4 @@
-#!/workspaces/Docker-Workshop/pipeline/.venv/bin/python
+#!/home/lacoste/Documents/Docker-Workshop/pipeline/.venv/bin/python
 # -*- coding: utf-8 -*-
 import sys
 from numpy._configtool import main

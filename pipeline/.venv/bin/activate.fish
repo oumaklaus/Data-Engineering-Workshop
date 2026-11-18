@@ -79,7 +79,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/workspaces/Docker-Workshop/pipeline/.venv'
+set -gx VIRTUAL_ENV '/home/lacoste/Documents/Docker-Workshop/pipeline/.venv'
 if string match -qr 'CYGWIN|MSYS|MINGW' (uname); and command -s cygpath >/dev/null
     set -gx VIRTUAL_ENV (cygpath -u "$VIRTUAL_ENV")
 end

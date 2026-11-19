@@ -1,0 +1,54 @@
+# --- Secrets / config (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+*-service-account.json
+credentials.json
+secrets/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Local Postgres data (docker volume) ---
+ny_taxi_postgres_data/
+**/ny_taxi_postgres_data/
+
+# --- Data / outputs ---
+*.parquet
+*.parquete
+*.csv
+*.db
+*.sql
+data/
+output/
+
+# --- Terraform (zoomcamp modules) ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# --- dbt ---
+target/
+dbt_packages/
+logs/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
